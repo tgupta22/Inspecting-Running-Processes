@@ -1,0 +1,18 @@
+0.
+It was super easy, just had to do ./0
+
+
+1.
+We had to use gdb for Phase #1. Along these lines, we run gdb by direction gdb 1 and afterwards once gdb is run, we add a breakpoint at the capacity fundamental by the order b main. At that point we run or just r the program. At that point, when the program comes to the breakpoint, (i.e., at main), we disassamble the fundamental capacity by giving the direction disas. At that point, we see the get together code for the primary fucntion. Next, we discover the capacity secret phrase and reach to that point by giving the order ni and afterward once we arrive at the capacity secret key, we step into it by the direction si. Presently, se simply utilize the direction ni to continue into the secret word work until arbitrary numbers are created (i.e., until we pass the capacity calls for srand and rand). Presently we give the run the direction data register which gives us the data pretty much all the registers. There, for the estimation of rax we locate the arbitrary number produced by the program. Presently, we simply utilize the ni direction until the program requests an information. At the point when it does, we input the number we simply found and in the event that it doesn't state that you free :(, that is the way you realize that your answer is right. Additionally, it shows the mystery directly after that. That is stage 1.
+
+2.
+In Phase #2, We used the command ltrace ./2 and spot the erro for the curlcode which is 0. The error 0 for the function call curlcode is Curle_OK and that was the answer for Phase #3.
+
+3.
+In Phase #3, We used the command ltrace ./3 where we see the status of a file named "iamspecial" with the library call __xstat(). Then I made a file named iamspecial using the commands cat and then I gave the file the necessary permissions for executing, reading and writing. There were couple of commands that I used to implement this phase, chmod g+x, chmos u_xr, chmod o+x. With the exection 3 (./3), I found my answer for this phase.
+
+
+4.
+
+Using command .4 when I executed phase 4 I got an error stating lib361.so can't be opened because it does not exist. Hence, I had to make a .c file, .h file and with the help of these 2 I also created a file named lib361.so with the help of gcc commands. Now, when we run the file again we get an error stating secretoperation symbol not found. To get rid of this error I implemented a function secretoperation with 4 parameters. 2 int values and 2 pointers. I found the number of parameters by using the command ltrace ./4. After that, when I execute the file 4, I get the secret.
+
